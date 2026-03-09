@@ -27,7 +27,7 @@
         <div id="diceContainer">
         @for (roll of results(); track roll) {
             <div class="die">
-                {{ roll }}
+                {{ roll.result ? roll.result : ""}}
             </div>
         }
     </div>

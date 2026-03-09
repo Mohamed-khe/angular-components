@@ -17,11 +17,19 @@ import { FormsModule } from '@angular/forms';
 })
 export class CbaresDiceRoll {
   protected readonly numDice = signal(1);
-  protected readonly results : WritableSignal<number[]> = signal([]);
+  protected readonly results : WritableSignal<{result: number, rolled: boolean}[]> = signal([
+    {
+      result: 0,
+      rolled: false
+    }
+  ]);
 
   protected readonly rollDice = () => this.results.update(
     currentResults => currentResults.map(
-      x => Math.ceil(Math.random() * 6)
+      x => ({
+        result: Math.ceil(Math.random() * 6),
+        rolled: true
+      })
     )
   )
 }
