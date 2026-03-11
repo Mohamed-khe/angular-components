@@ -3,8 +3,16 @@
     <mat-card-title> Tim's D20 Component </mat-card-title>
   </mat-card-header>
   <mat-card-content>
-    <button matButton="outlined" (click)="rollD20()">Roll d20</button>
     <br />
+    <mat-form-field>
+      <mat-label>How Many D20</mat-label>
+      <input matInput [value]="multiplier()" (input)="updateMultiplier($event.target.value)" />
+    </mat-form-field>
+    &nbsp;
+    <button matButton="outlined" (click)="rollD20()">Roll d20</button>
+    &nbsp;
+    {{ result() }}
+    <br /><br />
     <mat-form-field>
       <mat-label>Number One</mat-label>
       <input matInput [value]="numberOne()" (input)="updateNumberOne($event.target.value)" />
