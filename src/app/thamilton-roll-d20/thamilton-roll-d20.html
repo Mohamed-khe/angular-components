@@ -7,15 +7,15 @@
     <br />
     <mat-form-field>
       <mat-label>Number One</mat-label>
-      <input matInput [value]="numberOne()" />
+      <input matInput [value]="numberOne()" (input)="updateNumberOne($event.target.value)" />
     </mat-form-field>
     +
     <mat-form-field>
       <mat-label>Number Two</mat-label>
-      <input matInput [value]="numberTwo()" />
+      <input matInput [value]="numberTwo()" (input)="updateNumberTwo($event.target.value)" />
     </mat-form-field>
     &nbsp;
-    <button matButton="outlined">=</button>
+    <button matButton="outlined" (click)="add()">=</button>
     &nbsp;
     {{ sum() }}
   </mat-card-content>
