@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ClickCounter } from './click-counter';
+import { DweiseClickCounter } from './dweise-click-counter';
 
-describe('ClickCounter', () => {
-  let component: ClickCounter;
-  let fixture: ComponentFixture<ClickCounter>;
+describe('DweiseClickCounter', () => {
+  let component: DweiseClickCounter;
+  let fixture: ComponentFixture<DweiseClickCounter>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ClickCounter]
+      imports: [DweiseClickCounter]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ClickCounter);
+    fixture = TestBed.createComponent(DweiseClickCounter);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

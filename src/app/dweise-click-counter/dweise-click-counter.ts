@@ -3,15 +3,15 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 
 @Component({
-  selector: 'app-click-counter',
+  selector: 'app-dweise-click-counter',
   imports: [    
     MatCardModule,
     MatButtonModule
   ],
-  templateUrl: './click-counter.html',
-  styleUrl: './click-counter.css',
+  templateUrl: './dweise-click-counter.html',
+  styleUrl: './dweise-click-counter.css',
 })
-export class ClickCounter {
+export class DweiseClickCounter {
   count = 0;
 
   increase() {
