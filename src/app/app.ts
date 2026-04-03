@@ -6,6 +6,7 @@ import { ZsmuckerbryanChecklist } from './zsmuckerbryan-checklist/zsmuckerbryan-
 import { MrooneyAddition } from './mrooney-addition/mrooney-addition';
 import { LmeierCustomTopping } from './lmeier-custom-topping/lmeier-custom-topping';
 import { ThamiltonRollD20 } from './thamilton-roll-d20/thamilton-roll-d20';
+import { DweiseClickCounter } from './dweise-click-counter/dweise-click-counter'
 
 @Component({
   selector: 'app-root',
@@ -20,6 +21,7 @@ import { ThamiltonRollD20 } from './thamilton-roll-d20/thamilton-roll-d20';
     ZsmuckerbryanChecklist,
     LmeierCustomTopping,
     ThamiltonRollD20,
+    DweiseClickCounter
   ],
   templateUrl: './app.html',
   styleUrl: './app.css',
