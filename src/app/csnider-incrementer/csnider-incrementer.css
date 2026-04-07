@@ -2,15 +2,22 @@ mat-card {margin-top: 20px;}
 
 #control-buttons {margin-top: 20px;}
 
+mat-icon {padding-top: 1px;}
+
 .control-button {
-    background-color: #F7F6F0;
+    background-color: white;
     border: solid 1px gray;
-    border-radius: 5px;
+    border-radius: 8px;
     height: 31px;
     margin-right: 12px;
     vertical-align: middle;
 }
 
-mat-icon {padding-top: 1px;}
+.control-button:hover {background-color: #E6ECF5;}
 
-#reset-button {padding: 0 10px;}
+#add-button {color: green;} 
+#reset-button {
+    color: blue;
+    padding: 0 10px;
+}
+#remove-button {color: red;}
