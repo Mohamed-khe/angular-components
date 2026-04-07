@@ -8,11 +8,11 @@ export type PizzaTopping = {
 
 const dummyToppingsFromApi = [
   {
-    name: 'Pepperroni',
+    name: 'Pepperoni',
     price: 3.50,
   },
   {
-    name: 'Saussage',
+    name: 'Sausage',
     price: 4.25,
   },
   {
