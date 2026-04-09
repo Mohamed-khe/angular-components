@@ -4,7 +4,7 @@
     </mat-card-header>
     <mat-card-content>
         <div id="controls">
-            <input type="number" id="increment-by" (change)="setIncrement($event)" min="1" step="1" title="Increment By" value="{{increment()}}">
+            <input type="number" id="increment-by" (change)="setIncrement($event)" title="Increment By" value="{{increment()}}">
             <button class="control-button" (click)="incrementCount()" id="add-button" title="Increment Count"><mat-icon>add</mat-icon></button>
             <button class="control-button" (click)="decrementCount()" id="remove-button" title="Decrement Count"><mat-icon>remove</mat-icon></button>
             <span id="current-count">Current Count: {{count()}}</span>
