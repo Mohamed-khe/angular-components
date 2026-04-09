@@ -7,6 +7,7 @@ import { MrooneyAddition } from './mrooney-addition/mrooney-addition';
 import { LmeierCustomTopping } from './lmeier-custom-topping/lmeier-custom-topping';
 import { ThamiltonRollD20 } from './thamilton-roll-d20/thamilton-roll-d20';
 import { DweiseClickCounter } from './dweise-click-counter/dweise-click-counter'
+import { KnorbuTaxes } from './knorbu-taxes/knorbu-taxes';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,8 @@ import { DweiseClickCounter } from './dweise-click-counter/dweise-click-counter'
     ZsmuckerbryanChecklist,
     LmeierCustomTopping,
     ThamiltonRollD20,
-    DweiseClickCounter
+    DweiseClickCounter,
+    KnorbuTaxes
   ],
   templateUrl: './app.html',
   styleUrl: './app.css',
