@@ -14,30 +14,5 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class Magic8BallComponent {
 
-  private readonly answers = [
-    'It is certain',
-    'Without a doubt',
-    'You may rely on it',
-    'Yes definitely',
-    'Most likely',
-    'Outlook good',
-    'Yes',
-    'Signs point to yes',
-    'Reply hazy, try again',
-    'Ask again later',
-    'Better not tell you now',
-    'Cannot predict now',
-    'Concentrate and ask again',
-    'Don’t count on it',
-    'My reply is no',
-    'Outlook not so good',
-    'Very doubtful',
-  ];
-
-  protected readonly result = signal<string | null>(null);
-
-  protected readonly shake = () => {
-    const index = Math.floor(Math.random() * this.answers.length);
-    this.result.set(this.answers[index]);
-  };
+  
 }
