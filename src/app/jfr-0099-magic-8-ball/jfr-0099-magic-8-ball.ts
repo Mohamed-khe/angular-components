@@ -3,16 +3,16 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-magic-8-ball',
+  selector: 'app-jfr-0099-magic-8-ball',
   standalone: true,
   imports: [
     MatCardModule,
     MatButtonModule,
   ],
-  templateUrl: './magic-8-ball.html',
-  styleUrl: './magic-8-ball.css',
+  templateUrl: './jfr-0099-magic-8-ball.html',
+  styleUrl: './jfr-0099-magic-8-ball.css',
 })
-export class Magic8Ball {
+export class Jfr0099Magic8Ball {
 
   private readonly answers = [
     'It is certain',
