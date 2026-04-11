@@ -9,8 +9,8 @@ import { MatButtonModule } from '@angular/material/button';
     MatCardModule,
     MatButtonModule,
   ],
-  templateUrl: './magic-8-ball.component.html',
-  styleUrl: './magic-8-ball.component.css',
+  templateUrl: './magic-8-ball.html',
+  styleUrl: './magic-8-ball.css',
 })
 export class Magic8BallComponent {
 
