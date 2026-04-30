@@ -4,8 +4,12 @@
   </mat-card-header>
   <mat-card-content>
     <br />
-    <input type="text" placeholder="Type your question here..." />
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Question</mat-label>
+      <input matInput placeholder="Type your question here..." />
+    </mat-form-field>
     &nbsp;
-    <button>Shake 8 Ball</button>
+    <button matButton="outlined">Shake 8 Ball</button>
   </mat-card-content>
 </mat-card>
