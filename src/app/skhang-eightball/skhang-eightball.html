@@ -7,9 +7,11 @@
 
     <mat-form-field class="example-full-width">
       <mat-label>Question</mat-label>
-      <input matInput placeholder="Type your question here..." />
+      <input matInput [value]="question()" placeholder="Type your question here..." />
     </mat-form-field>
     &nbsp;
     <button matButton="outlined">Shake 8 Ball</button>
+    &nbsp;
+    {{ answer() }}
   </mat-card-content>
 </mat-card>

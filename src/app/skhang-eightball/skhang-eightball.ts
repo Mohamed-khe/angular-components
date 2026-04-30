@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatFormField } from '@angular/material/form-field';
@@ -10,4 +10,7 @@ import { MatInputModule } from '@angular/material/input';
   templateUrl: './skhang-eightball.html',
   styleUrl: './skhang-eightball.css',
 })
-export class SkhangEightball {}
+export class SkhangEightball {
+  protected readonly question = signal('testing456');
+  protected readonly answer = signal('testing123');
+}
