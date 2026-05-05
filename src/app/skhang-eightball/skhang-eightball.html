@@ -7,11 +7,17 @@
 
     <mat-form-field class="example-full-width">
       <mat-label>Question</mat-label>
-      <input matInput [value]="question()" placeholder="Type your question here..." />
+      <input
+        matInput
+        [value]="question()"
+        placeholder="Type your question here..."
+        (input)="question.set($event.target.value)"
+      />
     </mat-form-field>
     &nbsp;
-    <button matButton="outlined">Shake 8 Ball</button>
+    <button matButton="outlined" (click)="randAnswer()">Shake 8 Ball</button>
     &nbsp;
-    {{ answer() }}
+    <br />
+    <h2>{{ answer() }}</h2>
   </mat-card-content>
 </mat-card>
