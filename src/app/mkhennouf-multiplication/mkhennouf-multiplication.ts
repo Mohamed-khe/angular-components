@@ -23,7 +23,7 @@ export class MkhennoufMultiplication {
   protected readonly product = signal(9);
 
   protected readonly updateNumberOne = (num: string) => this.numberOne.set(Number(num));
-  protected readonly updateNumberTwo = (num: string) => this.numberOne.set(Number(num));
+  protected readonly updateNumberTwo = (num: string) => this.numberTwo.set(Number(num));
 
   protected readonly multiply = () => this.product.set(this.numberOne() * this.numberTwo())
 
