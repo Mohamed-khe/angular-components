@@ -12,14 +12,20 @@
             <mat-label>
                 Number One
             </mat-label>
-            <input matInput  value="4">
+            <input 
+                matInput  
+                [value]="numberOne()"
+            />
         </mat-form-field>
         x
         <mat-form-field>
             <mat-label>
                 Number Two
             </mat-label>
-            <input matInput  value="4">
+            <input 
+                matInput  
+                [value]="numberTwo()"
+            />
         </mat-form-field>
         &nbsp;
         <button
@@ -28,6 +34,6 @@
             =
         </button>
         &nbsp;
-        0
+        {{ multiplicationResult() }}
     </mat-card-content>
 </mat-card>
