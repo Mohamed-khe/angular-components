@@ -6,10 +6,11 @@ import { ZsmuckerbryanChecklist } from './zsmuckerbryan-checklist/zsmuckerbryan-
 import { MrooneyAddition } from './mrooney-addition/mrooney-addition';
 import { LmeierCustomTopping } from './lmeier-custom-topping/lmeier-custom-topping';
 import { ThamiltonRollD20 } from './thamilton-roll-d20/thamilton-roll-d20';
-import { DweiseClickCounter } from './dweise-click-counter/dweise-click-counter'
+import { DweiseClickCounter } from './dweise-click-counter/dweise-click-counter';
 import { KnorbuTaxes } from './knorbu-taxes/knorbu-taxes';
-import { CsniderIncrementer } from "./csnider-incrementer/csnider-incrementer";
+import { CsniderIncrementer } from './csnider-incrementer/csnider-incrementer';
 import { Jfr0099Magic8Ball } from './jfr-0099-magic-8-ball/jfr-0099-magic-8-ball';
+import { SkhangEightball } from './skhang-eightball/skhang-eightball';
 import { MkhennoufMultiplication } from './mkhennouf-multiplication/mkhennouf-multiplication';
 
 @Component({
@@ -26,6 +27,7 @@ import { MkhennoufMultiplication } from './mkhennouf-multiplication/mkhennouf-mu
     KnorbuTaxes,
     CsniderIncrementer,
     Jfr0099Magic8Ball,
+    SkhangEightball,
     MkhennoufMultiplication,
   ],
   templateUrl: './app.html',
