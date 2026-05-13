@@ -11,6 +11,7 @@ import { KnorbuTaxes } from './knorbu-taxes/knorbu-taxes';
 import { CsniderIncrementer } from './csnider-incrementer/csnider-incrementer';
 import { Jfr0099Magic8Ball } from './jfr-0099-magic-8-ball/jfr-0099-magic-8-ball';
 import { SkhangEightball } from './skhang-eightball/skhang-eightball';
+import { MkhennoufMultiplication } from './mkhennouf-multiplication/mkhennouf-multiplication';
 
 @Component({
   selector: 'app-root',
@@ -27,6 +28,7 @@ import { SkhangEightball } from './skhang-eightball/skhang-eightball';
     CsniderIncrementer,
     Jfr0099Magic8Ball,
     SkhangEightball,
+    MkhennoufMultiplication,
   ],
   templateUrl: './app.html',
   styleUrl: './app.css',
